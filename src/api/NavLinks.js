@@ -65,7 +65,7 @@ export default [
       ]
    },
    {
-      "menu_title": "Pages",
+      "menu_title": "Driver",
       "path": "/",
       "mega": true,
       "icon": "party_mode",
@@ -260,7 +260,7 @@ export default [
       ],
    },
    {
-      "menu_title": "Shop",
+      "menu_title": "Partners",
       "type": "subMenu",
       "path": "/",
       "icon": "home",
@@ -304,7 +304,7 @@ export default [
       ]
    },
    {
-      "menu_title": "Features",
+      "menu_title": "Contacto",
       "type": "subMenu",
       "path": "/",
       "icon": "home",
@@ -370,5 +370,17 @@ export default [
             "child_routes": null
          },
       ]
+   },
+   {
+      "menu_title": "Contacto",
+      "type": "Menu",
+      "path": "/contact-us",
+      "icon": "home",
+   },
+   {
+      "menu_title": "Faqs",
+      "type": "Menu",
+      "path": "/faq",
+      "icon": "home",
    },
 ]

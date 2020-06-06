@@ -74,7 +74,7 @@ class App extends React.Component {
   }
   setHeader(pathname) {
     let pathArray = pathname.split('/');
-    return `/${pathArray[1]}` === '/index2' ? true : `/${pathArray[1]}` === '/index3' ? true : `/${pathArray[1]}` === '/index4' ? true : `/${pathArray[1]}` === '/index5' ? true : `/${pathArray[1]}` === '/index9' ? true  : false;
+    return `/${pathArray[1]}` === '/' ? true :`/${pathArray[1]}` === '/index2' ? true : `/${pathArray[1]}` === '/index3' ? true : `/${pathArray[1]}` === '/index4' ? true : `/${pathArray[1]}` === '/index5' ? true : `/${pathArray[1]}` === '/index9' ? true  : false;
  
   }
   render() {
@@ -92,10 +92,10 @@ class App extends React.Component {
         <div className="page-wrapper">
           {this.setHeader(location.pathname) ? null : <Header />}
           <Switch>
-            <Route exact path="/" component={Index} />
+            <Route exact path="/" component={Index4} />
             <Route exact path="/index2" component={Index2} />
             <Route exact path="/index3" component={Index3} />
-            <Route exact path="/index4" component={Index4} />
+            <Route exact path="/index4" component={Index} />
             <Route exact path="/index5" component={Index5} />
             <Route exact path="/index6" component={Index6} />
             <Route exact path="/Index7" component={Index7} />

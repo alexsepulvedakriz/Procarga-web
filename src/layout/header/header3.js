@@ -122,7 +122,7 @@ class Header3 extends React.Component {
                                             </Nav>
                                         </Collapse>
                                     </Navbar>
-                                    <Link className="btn btn-light ml-8 d-none d-lg-block" to="/">Buy Now</Link>
+                                    <Link className="btn btn-light ml-8 d-none d-lg-block" to="/">Descargar ahora</Link>
                                 </div>
                                 {/*menu end*/}
                             </div>

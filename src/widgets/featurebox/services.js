@@ -6,7 +6,7 @@ class FeatureServices extends Component {
         return (
             <div className="row align-items-center">
                 <div className="col-xl-4 col-lg-4 mb-8 mb-lg-0">
-                    <div className={`px-4 py-7 rounded hover-translate text-center ${this.props.bgshadow}`}>
+                    <div className={`px-4 py-7 rounded hover-translate text-center bg-white shadow`}>
                         <div>
                             <img className="img-fluid" src={require(`../../assets/images/svg/01.svg`)} alt="" />
                         </div>
@@ -26,7 +26,7 @@ class FeatureServices extends Component {
                     </div>
                 </div>
                 <div className="col-xl-4 col-lg-4 col-sm-6 mt-6 mt-sm-0">
-                    <div className={`px-4 py-7 rounded hover-translate text-center ${this.props.bgshadow}`}>
+                    <div className={`px-4 py-7 rounded hover-translate text-center bg-white shadow`}>
                         <div>
                             <img className="img-fluid" src={require(`../../assets/images/svg/03.svg`)} alt="" />
                         </div>
