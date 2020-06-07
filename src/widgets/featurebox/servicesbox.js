@@ -10,7 +10,7 @@ class Servicesbox extends Component {
                                     <div className="mb-5"> <span className="h6 text-primary">
                                         Services
                     </span>
-                                        <h2 className="mt-3 font-w-5 mb-0">Why Choose Bootsland Our Services</h2>
+                                        <h2 className="mt-3 font-w-5 mb-0">Why Choose ProCarga Our Services</h2>
                                     </div>
                                     <div className="d-flex justify-content-between mb-5">
                                         <div className="mr-3">

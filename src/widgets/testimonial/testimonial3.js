@@ -27,7 +27,7 @@ class Testimonial3 extends Component {
                               <img alt="Image" src={require(`../../assets/images/testimonial/01.jpg`)} className="shadow-primary img-fluid rounded-circle d-inline" />
                             </div>
                             <div className="card-body p-0 mt-5">
-                              <p className="lead font-w-5">Bootsland Amazing Landing Page All-in-one, clean code, Crative &amp; Modern design. We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                              <p className="lead font-w-5">ProCarga Amazing Landing Page All-in-one, clean code, Crative &amp; Modern design. We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
                               <div>
                                 <h5 className="text-primary d-inline mb-0">Romi Jensen</h5>
                                 <small className="text-dark font-w-5 font-italic">- Founder</small>
@@ -45,7 +45,7 @@ class Testimonial3 extends Component {
                               <img alt="Image" src={require(`../../assets/images/testimonial/02.jpg`)} className="shadow-primary img-fluid rounded-circle d-inline" />
                             </div>
                             <div className="card-body p-0 mt-5">
-                              <p className="lead font-w-5">Bootsland Amazing Landing Page All-in-one, clean code, Crative &amp; Modern design. We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                              <p className="lead font-w-5">ProCarga Amazing Landing Page All-in-one, clean code, Crative &amp; Modern design. We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
                               <div>
                                 <h5 className="text-primary d-inline mb-0">Johny Stock</h5>
                                 <small className="text-dark font-w-5 font-italic">- Supervisor</small>
@@ -63,7 +63,7 @@ class Testimonial3 extends Component {
                               <img alt="Image" src={require(`../../assets/images/testimonial/03.jpg`)} className="shadow-primary img-fluid rounded-circle d-inline" />
                             </div>
                             <div className="card-body p-0 mt-5">
-                              <p className="lead font-w-5">Bootsland Amazing Landing Page All-in-one, clean code, Crative &amp; Modern design. We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                              <p className="lead font-w-5">ProCarga Amazing Landing Page All-in-one, clean code, Crative &amp; Modern design. We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
                               <div>
                                 <h5 className="text-primary d-inline mb-0">Leeny Biton</h5>
                                 <small className="text-dark font-w-5 font-italic">- Manager</small>

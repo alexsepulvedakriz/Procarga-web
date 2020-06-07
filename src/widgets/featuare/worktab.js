@@ -50,7 +50,7 @@ class Worktab extends Component {
                     <div className="col-12 col-lg-6 col-xl-5">
                       <div>
                         <h4 className="mt-3">Login Account</h4>
-                        <p className="lead">Bootsland latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                        <p className="lead">ProCarga latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
                         <p className="mb-0">We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
                       </div>
                     </div>
@@ -64,7 +64,7 @@ class Worktab extends Component {
                     <div className="col-12 col-lg-6 col-xl-5">
                       <div>
                         <h4 className="mt-3">Open Application</h4>
-                        <p className="lead">Bootsland latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                        <p className="lead">ProCarga latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
                         <p className="mb-0">We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
                       </div>
                     </div>
@@ -78,7 +78,7 @@ class Worktab extends Component {
                     <div className="col-12 col-lg-6 col-xl-5">
                       <div>
                         <h4 className="mt-3">Start Chatting</h4>
-                        <p className="lead">Bootsland latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                        <p className="lead">ProCarga latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
                         <p className="mb-0">We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
                       </div>
                     </div>

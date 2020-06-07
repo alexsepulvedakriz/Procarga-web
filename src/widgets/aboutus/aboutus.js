@@ -22,7 +22,7 @@ class Memberaboutus extends Component {
                   <div> <span className="badge badge-primary-soft p-2">
                       <i className="la la-exclamation ic-3x rotation" />
                     </span>
-                    <h2 className="mt-3 font-w-5">Bootsland Small Team Crafting Beautiful Experience</h2>
+                    <h2 className="mt-3 font-w-5">ProCarga Small Team Crafting Beautiful Experience</h2>
                     <p className="lead">We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
                     <p className="mb-0">We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
                   </div>

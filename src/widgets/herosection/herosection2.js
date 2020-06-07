@@ -13,7 +13,7 @@ class Herosection2 extends Component {
                 <div className="col-12 col-lg-7 col-xl-6">
                   {/* Heading */}
                   <h1 className="display-4 text-white">
-                    Change the way you build websites With <span className="font-weight-bold">Bootsland</span>
+                    Change the way you build websites With <span className="font-weight-bold">ProCarga</span>
                   </h1>
                   {/* Text */}
                   <p className="lead text-light">Build a Beautiful, Clean &amp; Modern Design website with flexible Bootstrap components.</p>

@@ -75,7 +75,7 @@ class Index2 extends Component {
               <div className="row justify-content-center text-center">
                 <div className="col-12 col-md-12 col-lg-8 mb-8 mb-lg-0">
                   <div className="mb-8"> <span className="badge badge-primary-soft p-2 font-w-6">
-                    Bootsland Team
+                    ProCarga Team
                         </span>
                     <h2 className="mt-3 font-w-6">Meet Our Team Of Expert</h2>
                     <p className="lead mb-0">All types of businesses need access to development resources, so we give you the option to decide how much you need to use.</p>

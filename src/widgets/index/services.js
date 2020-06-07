@@ -10,7 +10,7 @@ class Services extends Component {
                             <div> <span className="badge badge-primary-soft p-2">
                                 <i className="la la-cubes ic-3x rotation" />
                             </span>
-                            <h2 className="mt-3 mb-0">One Platform, Deep Insight Why Choose Bootsland</h2>
+                            <h2 className="mt-3 mb-0">One Platform, Deep Insight Why Choose ProCarga</h2>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6">

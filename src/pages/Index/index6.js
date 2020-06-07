@@ -45,7 +45,7 @@ class Index6 extends Component {
                   <div className="row justify-content-center text-center">
                     <div className="col-12 col-md-12 col-lg-8 mb-8 mb-lg-0">
                       <div className="mb-8"> <span className="h6 text-primary">
-                          Bootsland Team
+                          ProCarga Team
                         </span>
                         <h2 className="mt-3 font-w-5 text-white">Meet Our Team Of Expert</h2>
                         <p className="lead mb-0">All types of businesses need access to development resources, so we give you the option to decide how much you need to use.</p>

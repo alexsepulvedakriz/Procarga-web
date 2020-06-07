@@ -18,7 +18,7 @@ class Blog2 extends Component {
                   <div className="col-md-7">
                     <div className="card-body"> <Link className="d-inline-block text-muted mb-2" to="/">Sass</Link>
                       <h2 className="h5 font-weight-medium">
-                        Bootsland Perfect Performance landing Page
+                        ProCarga Perfect Performance landing Page
                       </h2>
                       <p>Businesses need access to development resources serspiciatis.</p>
                       <Link className="btn-link" to="/">Read Details</Link>

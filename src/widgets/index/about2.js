@@ -11,7 +11,7 @@ class About2 extends Component {
                         </div>
                         <div className="col-12 col-lg-6 col-xl-5">
                             <div className="mb-5"> <span className="h6 text-primary">
-                                About Bootsland
+                                About ProCarga
                                 </span>
                                 <h2 className="mt-3 font-w-5">A Creative landing Page</h2>
                                 <p className="lead">We use the latest technologies it voluptatem accusantium doloremque.</p>
@@ -34,7 +34,7 @@ class About2 extends Component {
                                                 <polyline points="20 6 9 17 4 12" />
                                             </svg>
                                         </div>
-                                        <p className="mb-0 ml-3">Bootsland Landing Page Build With Static Bootstarp Code</p>
+                                        <p className="mb-0 ml-3">ProCarga Landing Page Build With Static Bootstarp Code</p>
                                     </div>
                                 </div>
                                 <div>

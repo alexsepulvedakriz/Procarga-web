@@ -142,7 +142,7 @@ class Index7 extends Component {
                   <div className="mb-5"> <span className="badge badge-primary-soft p-2">
                     <i className="la la-file-image-o ic-3x rotation" />
                   </span>
-                    <h2 className="mt-3">See Our Bootsland App Screenshots</h2>
+                    <h2 className="mt-3">See Our ProCarga App Screenshots</h2>
                     <p className="lead mb-0">All types of businesses need access to development resources, so we give you the option to decide how much you need to use.</p>
                   </div>
                 </div>

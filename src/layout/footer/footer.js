@@ -13,20 +13,10 @@ class Footer extends Component {
                 </div>
                 <Container  className=" mt-11">
                 <Row>
-                    <div className="col-12 col-lg-5 col-xl-4 mr-auto mb-6 mb-lg-0">
-                    <div className="subscribe-form bg-warning-soft p-5 rounded">
-                        <h5 className="mb-4 text-white">Newsletter</h5>
-                        <h6 className="text-light">Subscribe Our Newsletter</h6>
-                        <form id="mc-form" className="group">
-                        <input type="email"  name="EMAIL" className="email form-control" id="mc-email" placeholder="Email Address" required style={{height: '60px'}} />
-                        <input className="btn btn-outline-light btn-block mt-3 mb-2" type="submit" name="subscribe" defaultValue="Subscribe" />
-                        </form> <small className="text-light">Get started for 1 Month free trial No Purchace required.</small>
-                    </div>
-                    </div>
                     <div className="col-12 col-lg-6 col-xl-7">
                     <Row>
                         <Col className="col-12 col-sm-4 navbar-dark">
-                        <h5 className="mb-4 text-white">Pages</h5>
+                        <h5 className="mb-4 text-white">Paginas</h5>
                         <ul className="navbar-nav list-unstyled mb-0">
                             <li className="mb-3 nav-item"><Link className="nav-link" to="/about-us">About</Link> 
                             </li>
@@ -41,7 +31,7 @@ class Footer extends Component {
                         </ul>
                         </Col>
                         <Col className="col-12 col-sm-4 mt-6 mt-sm-0 navbar-dark">
-                        <h5 className="mb-4 text-white">Service</h5>
+                        <h5 className="mb-4 text-white">Servicios</h5>
                         <ul className="navbar-nav list-unstyled mb-0">
                             <li className="mb-3 nav-item"><Link className="nav-link" to="#">Content Writing</Link> 
                             </li>
@@ -68,7 +58,7 @@ class Footer extends Component {
                     <Row className="mt-5" >
                         <Col className="col-12 col-sm-6">
                             <Link className="footer-logo text-white h2 mb-0" to="/">
-                                Boots<span className="font-weight-bold">Land.</span>
+                                Pro<span className="font-weight-bold">Carga.</span>
                             </Link> 
                         </Col>
                         <Col className="col-12 col-sm-6 mt-6 mt-sm-0">
@@ -90,7 +80,7 @@ class Footer extends Component {
                 </Row>
                 <Row className="text-white text-center mt-8">
                     <Col>
-                    <hr className="mb-8" />Copyright 2020 Bootsland Theme by <u><Link className="text-white" to="#">Skytouch Infotech</Link></u>  | All Rights Reserved</Col>
+                    <hr className="mb-8" />Copyright 2020 Procarga  | Todos los derechos reservados</Col>
                 </Row>
                 </Container>
             </footer>

@@ -12,7 +12,7 @@ class Blog1 extends Component {
                 <img className="card-img-top shadow rounded" src={require(`../../assets/images/blog/01.png`)} alt="Image" />
                 <div className="card-body pt-5"> <Link className="d-inline-block text-muted mb-2" to="/">Sass</Link>
                   <h2 className="h5 font-weight-medium">
-                    <Link className="link-title" to="/blog-single">Bootsland Perfect Performance landing Page</Link>
+                    <Link className="link-title" to="/blog-single">ProCarga Perfect Performance landing Page</Link>
                   </h2>
                   <p>Businesses need access to development resources serspiciatis unde omnis iste natus error.</p>
                 </div>

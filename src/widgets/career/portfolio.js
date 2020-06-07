@@ -46,7 +46,7 @@ class PortfolioInfo extends Component {
                               <polyline points="20 6 9 17 4 12" />
                             </svg>
                           </div>
-                          <p className="mb-0 ml-3">Bootsland discovering the source behind the ubiquitous</p>
+                          <p className="mb-0 ml-3">ProCarga discovering the source behind the ubiquitous</p>
                         </div>
                         <div className="d-flex align-items-center mb-3">
                           <div className="badge-primary-soft rounded p-1">
@@ -83,7 +83,7 @@ class PortfolioInfo extends Component {
                               <polyline points="20 6 9 17 4 12" />
                             </svg>
                           </div>
-                          <p className="mb-0 ml-3">Bootsland discovering the source behind the ubiquitous</p>
+                          <p className="mb-0 ml-3">ProCarga discovering the source behind the ubiquitous</p>
                         </div>
                         <div className="d-flex align-items-center mb-3">
                           <div className="badge-primary-soft rounded p-1">
@@ -120,7 +120,7 @@ class PortfolioInfo extends Component {
                               <polyline points="20 6 9 17 4 12" />
                             </svg>
                           </div>
-                          <p className="mb-0 ml-3">Bootsland discovering the source behind the ubiquitous</p>
+                          <p className="mb-0 ml-3">ProCarga discovering the source behind the ubiquitous</p>
                         </div>
                         <div className="d-flex align-items-center mb-3">
                           <div className="badge-primary-soft rounded p-1">
@@ -157,7 +157,7 @@ class PortfolioInfo extends Component {
                               <polyline points="20 6 9 17 4 12" />
                             </svg>
                           </div>
-                          <p className="mb-0 ml-3">Bootsland discovering the source behind the ubiquitous</p>
+                          <p className="mb-0 ml-3">ProCarga discovering the source behind the ubiquitous</p>
                         </div>
                         <div className="d-flex align-items-center mb-3">
                           <div className="badge-primary-soft rounded p-1">

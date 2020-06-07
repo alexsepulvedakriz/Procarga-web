@@ -81,7 +81,7 @@ class Header3 extends React.Component {
                                 {/*menu start*/}
                                 <div className="col d-flex align-items-center justify-content-between"> 
                                 <Link className="navbar-brand logo text-white  h2 mb-0" to="/">
-                                    Boots<span className="font-weight-bold">Land.</span>
+                                    Pro<span className="font-weight-bold">Carga.</span>
                                 </Link>
                                     <Navbar className="navbar-expand-lg navbar-light ml-auto">
                                         <NavbarToggler onClick={this.toggle} />
@@ -132,7 +132,7 @@ class Header3 extends React.Component {
                     <div id="ht-preloader">
                         <div className="loader clear-loader">
                             <span />
-                            <p>BootsLand</p>
+                            <p>ProCarga</p>
                         </div>
                     </div>
                 }

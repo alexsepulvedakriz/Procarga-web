@@ -103,7 +103,7 @@ class FeatureBox extends Component {
                                     <div> <span className="badge badge-primary-soft p-2">
                                         <i className="la la-cubes ic-3x rotation" />
                                     </span>
-                                        <h2 className="mt-3">Awesome Bootsland App Feature</h2>
+                                        <h2 className="mt-3">Awesome ProCarga App Feature</h2>
                                         <p className="lead mb-0">All types of businesses need access to development resources, so we give you the option to decide how much you need to use.</p>
                                     </div>
                                 </div>

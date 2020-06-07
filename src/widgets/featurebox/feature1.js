@@ -13,7 +13,7 @@ class Feature1 extends Component {
                         <div className="mb-8"> <span className="badge badge-primary-soft p-2">
                             <i className="la la-cubes ic-3x rotation" />
                         </span>
-                            <h2 className="mt-3 mb-0">Bootsland Users Love App Features</h2>
+                            <h2 className="mt-3 mb-0">ProCarga Users Love App Features</h2>
                         </div>
                         <div className="row">
                             <div className="col-lg-6 col-md-6">

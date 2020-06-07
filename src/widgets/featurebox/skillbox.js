@@ -11,7 +11,7 @@ class Skillbox extends Component {
                         </div>
                         <div className="col-12 col-lg-7 col-xl-6">
                             <div className="mb-8">
-                                <h2 className="font-w-6">One Platform, Deep Insight Why Choose Bootsland</h2>
+                                <h2 className="font-w-6">One Platform, Deep Insight Why Choose ProCarga</h2>
                             </div>
                             <div className="row">
                                 <div className="col-lg-6 col-md-6">

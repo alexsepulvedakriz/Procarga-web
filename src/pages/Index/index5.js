@@ -46,9 +46,9 @@ class Index5 extends Component {
               <div className="row align-items-center justify-content-between">
                 <div className="col-12 col-lg-6 col-xl-5 order-lg-1  mb-8 mb-lg-0">
                   <div> <span className="h6 text-primary">
-                    About Bootsland
+                    About ProCarga
                         </span>
-                    <h2 className="mt-3 font-w-5">Bootsland Crafting Creative And Beautiful Experience</h2>
+                    <h2 className="mt-3 font-w-5">ProCarga Crafting Creative And Beautiful Experience</h2>
                     <p className="lead mb-0">We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
                   </div>
                 </div>
@@ -95,7 +95,7 @@ class Index5 extends Component {
               <div className="row align-items-center">
                 <div className="col-12 col-md-12 col-lg-4 mb-8 mb-lg-0">
                   <div> <span className="h6 text-primary">
-                    Bootsland Team
+                    ProCarga Team
                         </span>
                     <h2 className="mt-3 font-w-5">Meet Our Team Of Expert</h2>
                     <p className="lead mb-0">All types of businesses need access to development resources, so we give you the option to decide how much you need to use.</p>

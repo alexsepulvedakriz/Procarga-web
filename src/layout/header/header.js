@@ -131,7 +131,7 @@ class Header extends React.Component {
                     <div id="ht-preloader">
                         <div className="loader clear-loader">
                             <span />
-                            <p>BootsLand</p>
+                            <p>ProCarga</p>
                         </div>
                     </div>
                 }

@@ -11,7 +11,7 @@ class About1 extends Component {
                 </div>
                 <div className="col-12 col-lg-6 col-xl-5">
                   <div>
-                    <h2 className="font-w-6">Solve Your Problem Very Fast With Bootsland</h2>
+                    <h2 className="font-w-6">Solve Your Problem Very Fast With ProCarga</h2>
                     <p className="lead">We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
                   </div>
                   <div className="d-flex flex-wrap justify-content-start">

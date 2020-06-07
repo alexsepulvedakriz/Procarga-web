@@ -40,7 +40,7 @@ class Herosection8 extends Component {
                         <div className="item">
                             {/* Heading */}
                             <h1 className="display-4 font-w-6">
-                                Incredible <span className="text-primary">Business Feature</span> With Bootsland
+                                Incredible <span className="text-primary">Business Feature</span> With ProCarga
                           </h1>
                             {/* Text */}
                             <p className="lead text-muted">Build a Beautiful, Clean &amp; Modern Design website with flexible Bootstrap components.</p>
@@ -54,7 +54,7 @@ class Herosection8 extends Component {
                         <div className="item">
                             {/* Heading */}
                             <h1 className="display-4 font-w-6">
-                                Bootsland Built With Static <span className="text-primary">Bootstrap Code</span>
+                                ProCarga Built With Static <span className="text-primary">Bootstrap Code</span>
                             </h1>
                             {/* Text */}
                             <p className="lead text-muted">Build a Beautiful, Clean &amp; Modern Design website with flexible Bootstrap components.</p>

@@ -30,7 +30,7 @@ class Videobox1 extends Component {
                                 </div>
                             </div>
                             <h1 className="display-4 mt-8 font-w-5">
-                                Bootsland All In One Solution For Your Website
+                                ProCarga All In One Solution For Your Website
                             </h1>
                             {/* Text */}
                             <p className="lead text-muted">Build a Beautiful, Clean &amp; Modern Design website with flexible Bootstrap components.</p>

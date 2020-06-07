@@ -11,7 +11,7 @@ class Testimonial1 extends Component {
                     <img alt="Image" src={require(`../../assets/images/testimonial/01.jpg`)} className="shadow-primary img-fluid rounded-circle d-inline" />
                   </div>
                   <div className="card-body p-0">
-                    <p>Bootsland Amazing Landing Page All-in-one, clean code, Crative &amp; Modern design.</p>
+                    <p>ProCarga Amazing Landing Page All-in-one, clean code, Crative &amp; Modern design.</p>
                     <div>
                       <h5 className="text-primary d-inline">Romi Jensen</h5>
                       <small className="text-muted font-italic">- Founder</small>
@@ -25,7 +25,7 @@ class Testimonial1 extends Component {
                     <img alt="Image" src={require(`../../assets/images/testimonial/02.jpg`)} className="shadow-primary img-fluid rounded-circle d-inline" />
                   </div>
                   <div className="card-body p-0">
-                    <p>Bootsland Amazing Landing Page All-in-one, clean code, Crative &amp; Modern design.</p>
+                    <p>ProCarga Amazing Landing Page All-in-one, clean code, Crative &amp; Modern design.</p>
                     <div>
                       <h5 className="text-primary d-inline">Johny Stock</h5>
                       <small className="text-muted font-italic">- Supervisor</small>
@@ -39,7 +39,7 @@ class Testimonial1 extends Component {
                     <img alt="Image" src={require(`../../assets/images/testimonial/03.jpg`)} className="shadow-primary img-fluid rounded-circle d-inline" />
                   </div>
                   <div className="card-body p-0">
-                    <p>Bootsland Amazing Landing Page All-in-one, clean code, Crative &amp; Modern design.</p>
+                    <p>ProCarga Amazing Landing Page All-in-one, clean code, Crative &amp; Modern design.</p>
                     <div>
                       <h5 className="text-primary d-inline">Leeny Biton</h5>
                       <small className="text-muted font-italic">- Manager</small>
@@ -53,7 +53,7 @@ class Testimonial1 extends Component {
                     <img alt="Image" src={require(`../../assets/images/testimonial/01.jpg`)} className="shadow-primary img-fluid rounded-circle d-inline" />
                   </div>
                   <div className="card-body p-0">
-                    <p>Bootsland Amazing Landing Page All-in-one, clean code, Crative &amp; Modern design.</p>
+                    <p>ProCarga Amazing Landing Page All-in-one, clean code, Crative &amp; Modern design.</p>
                     <div>
                       <h5 className="text-primary d-inline">Jensen Rom</h5>
                       <small className="text-muted font-italic">- Ceo</small>

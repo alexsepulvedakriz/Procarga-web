@@ -16,7 +16,7 @@ class AccordionDemo extends Component {
                 <AccordionItem className="accordion__item mb-2" expanded >
                     <AccordionItemTitle className="border mb-0 bg-transparent card-header">
                         <h6 className="mb-0">
-                            <a className="text-dark" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true">When our power of choice Bootsland ?</a>
+                            <a className="text-dark" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true">When our power of choice ProCarga ?</a>
                         </h6>
                     </AccordionItemTitle>
                     <AccordionItemBody>

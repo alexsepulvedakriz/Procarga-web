@@ -23,7 +23,7 @@ class Blog4 extends Component {
                 </div>
                 <div className="card-body pt-0">
                   <h2 className="h5 font-weight-medium">
-                    Bootsland Perfect Performance landing Page
+                    ProCarga Perfect Performance landing Page
                   </h2>
                   <p className="mb-5">Businesses need access to development resources serspiciatis unde omnis iste natus error.</p>
                   <div className="d-flex justify-content-between align-items-center">
