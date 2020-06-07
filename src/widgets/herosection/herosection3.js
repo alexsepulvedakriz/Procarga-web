@@ -10,16 +10,20 @@ class Herosection3 extends Component {
                 <div className="col-12 col-lg-10 col-xl-8">
                   {/* Heading */}
                   <h1 className="display-4 text-white font-weight-bold">
-                    Change the way you build websites With Bootsland
+                      Mueve lo que quieras de una forma fácil desde tu smartphone
                       </h1>
                   {/* Text */}
-                  <p className="lead text-light">Build a Beautiful, Clean &amp; Modern Design website with flexible Bootstrap components.</p>
-                  {/* Buttons */} <Link to="/" className="btn btn-primary mr-1">
-                    Learn More
-                      </Link>
-                  <Link to="/" className="btn btn-light">
-                    Get Started
-                      </Link>
+                  <p className="lead text-light">Procarga ha llegado para facilitar el traslado de tus cosas en pocos pasos desde tu smartphone, no dudes en bajar la aplicación y solicitar
+                      un driver amigo que te ayudará.</p>
+                  {/* Buttons */}
+                    <Link to="/" className="btn btn-primary text-white text-left mr-1"> <i className="la la-apple mr-2 ic-2x d-inline-block" />
+                        <div className="d-inline-block"> <small className="d-block">Disponible en</small>
+                            App Store</div>
+                    </Link>
+                    <Link to="/" className="btn btn-dark text-white text-left"> <i className="la la-android mr-2 ic-2x d-inline-block" />
+                        <div className="d-inline-block"> <small className="d-block">Disponible en</small>
+                            Google Play</div>
+                    </Link>
                 </div>
               </div>
               {/* / .row */}

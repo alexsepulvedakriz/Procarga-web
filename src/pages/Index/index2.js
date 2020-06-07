@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header3 from '../../layout/header/header3';
 import Herosection1 from '../../widgets/herosection/herosection1';
-import FeatureServices from '../../widgets/featurebox/services';
+import Features from '../../widgets/featurebox/services';
 import Counter1 from '../../widgets/counter/counter1';
 import About from '../../widgets/index/about';
 import Skillbox from '../../widgets/featurebox/skillbox'
@@ -50,7 +50,7 @@ class Index2 extends Component {
           </section>
           <section className="mt-n15 p-0">
             <div className="container">
-              <FeatureServices  bgshadow="bg-white shadow" />
+              <Features bgshadow="bg-white shadow" />
             </div>
           </section>
           {/*services end*/}

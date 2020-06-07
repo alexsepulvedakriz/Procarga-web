@@ -8,7 +8,7 @@ import Featureskill from '../../../widgets/featurebox/featureskill';
 import Feature1 from '../../../widgets/featurebox/feature1';
 import Feature2 from '../../../widgets/featurebox/feature2';
 import Feature3 from '../../../widgets/featurebox/feature3';
-import FeatureServices from '../../../widgets/featurebox/services';
+import Features from '../../../widgets/featurebox/services';
 import Pageheading from '../../../widgets/Pageheading';
 
 class FeatureBox extends Component {
@@ -58,7 +58,7 @@ class FeatureBox extends Component {
                     </section>
                     <section className="mt-n15">
                         <div className="container">
-                            <FeatureServices bgshadow="bg-white shadow"/>
+                            <Features bgshadow="bg-white shadow"/>
                         </div>
                     </section>
                     {/*services end*/}
@@ -79,7 +79,7 @@ class FeatureBox extends Component {
                                 </div>
                             </div>
 
-                            <FeatureServices bgshadow="" />
+                            <Features bgshadow="" />
                         </div>
                     </section>
                     {/*services end*/}

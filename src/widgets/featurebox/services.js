@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-class FeatureServices extends Component {
+class Features extends Component {
     render() {
         return (
             <div className="row align-items-center">
@@ -10,9 +10,8 @@ class FeatureServices extends Component {
                         <div>
                             <img className="img-fluid" src={require(`../../assets/images/svg/01.svg`)} alt="" />
                         </div>
-                        <h5 className="mt-4 mb-3">Creative UI/UX 1</h5>
-                        <p>Serspiciatis unde omnis iste natus error sit doloremque laudantium, totam rem aperiam.</p>
-                        <Link  to="#" className="btn-link">Read Details</Link>
+                        <h5 className="mt-4 mb-3">Verificación de antecedentes</h5>
+                        <p>Hacemos una verificación de antecedentes de nuestros conductores para garantizar tu seguridad.</p>
                     </div>
                 </div>
                 <div className="col-xl-4 col-lg-4 col-sm-6">
@@ -20,9 +19,8 @@ class FeatureServices extends Component {
                         <div>
                             <img className="img-fluid" src={require(`../../assets/images/svg/02.svg`)} alt="" />
                         </div>
-                        <h5 className="mt-4 mb-3">Flexibility</h5>
-                        <p>Serspiciatis unde omnis iste natus error sit doloremque laudantium, totam rem aperiam.</p>
-                        <Link  to="#" className="btn-link">Read Details</Link>
+                        <h5 className="mt-4 mb-3">Precio instantáneo</h5>
+                        <p>Selecciona tu dirección de retiro y destino obtén un precio de forma inmediata.</p>
                     </div>
                 </div>
                 <div className="col-xl-4 col-lg-4 col-sm-6 mt-6 mt-sm-0">
@@ -30,9 +28,8 @@ class FeatureServices extends Component {
                         <div>
                             <img className="img-fluid" src={require(`../../assets/images/svg/03.svg`)} alt="" />
                         </div>
-                        <h5 className="mt-4 mb-3">Easy Code</h5>
-                        <p>Serspiciatis unde omnis iste natus error sit doloremque laudantium, totam rem aperiam.</p>
-                        <Link to="#" className="btn-link">Read Details</Link>
+                        <h5 className="mt-4 mb-3">Mejor Experiencia de usuario</h5>
+                        <p>Nuestra amigable interfaz de usuario hará que la experiencia sea fácil.</p>
                     </div>
                 </div>
             </div>
@@ -41,4 +38,4 @@ class FeatureServices extends Component {
     }
 }
 
-export default FeatureServices;
+export default Features;

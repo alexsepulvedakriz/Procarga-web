@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Pricingplan5 from '../../widgets/pricingplan/pricingplan5';
 import Header2 from '../../layout/header/header2';
 import Herosection8 from '../../widgets/herosection/herosection8';
-import FeatureServices from '../../widgets/featurebox/services';
+import Features from '../../widgets/featurebox/services';
 import Counter2 from '../../widgets/counter/counter2';
 import Team1 from '../../widgets/team/team1';
 import Gallrylist from '../../widgets/portfolio/gallrylist';
@@ -45,7 +45,7 @@ class Index9 extends Component {
                 </div>
               </div>
               {/* / .row */}
-              <FeatureServices />
+              <Features />
             </div>
           </section>
           {/*services end*/}

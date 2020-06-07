@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Memberaboutus from '../../../widgets/aboutus/aboutus';
-import FeatureServices from '../../../widgets/featurebox/services';
+import Features from '../../../widgets/featurebox/services';
 import Testimonial1 from '../../../widgets/testimonial/testimonial1';
 import Blog4 from '../../../widgets/blog/blog4';
 import Pageheading from '../../../widgets/Pageheading';
@@ -32,7 +32,7 @@ class Aboutus extends Component {
                     {/*feature start*/}
                     <section >
                         <div className="container">
-                            <FeatureServices bgshadow="bg-white shadow" />
+                            <Features bgshadow="bg-white shadow" />
                         </div>
                     </section>
                     {/*feature end*/}

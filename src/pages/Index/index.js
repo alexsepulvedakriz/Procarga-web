@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import Herosection3 from '../../widgets/herosection/herosection3';
 import Header3 from '../../layout/header/header3';
-import FeatureServices from '../../widgets/featurebox/services';
+import Features from '../../widgets/featurebox/services';
 import {Link} from "react-router-dom";
 
-class Index4 extends Component {
+class Index extends Component {
   constructor(props)
   {
       super(props)
@@ -24,21 +24,21 @@ class Index4 extends Component {
             {/*body content start*/}
             <div className="page-content">
               {/*how it work start*/}
-              <section className="custom-py-2 position-relative" data-bg-img={require(`../../assets/images/bg/02.png`)}>
+              <section className="custom-py-2 position-relative">
                 <div className="container">
                   <div className="row justify-content-center text-center">
                     <div className="col-12 col-md-12 col-lg-8 mb-8 mb-lg-0">
                       <div className="mb-8"> <span className="badge badge-primary-soft p-2 font-w-6">
-                          How It Work
+                          Como funciona
                         </span>
-                        <h2 className="mt-3 font-w-5 mb-0">Three Simple Step To Started Working Process</h2>
+                        <h2 className="mt-3 font-w-5 mb-0">Tres simples pasos para el traslado de tus cosas</h2>
                       </div>
                     </div>
                   </div>
                   {/* / .row */}
                   <div className="row align-items-center justify-content-between mb-10">
                     <div className="col-12 col-lg-6 mb-6 mb-lg-0">
-                      <img src={require(`../../assets/images/svg/04.svg`)} alt="Image" className="img-fluid" />
+                      <img src={require(`../../assets/images/steps/moving.png`)} alt="Image" className="img-fluid" />
                     </div>
                     <div className="col-12 col-lg-6 col-xl-5">
                       <div>
@@ -46,14 +46,14 @@ class Index4 extends Component {
                             01
                           </span>
                         </h2>
-                        <h4 className="mt-3">Choose Project</h4>
-                        <p className="lead mb-0">We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                        <h4 className="mt-3">¿Tienes problemas moviendo tus cosas?</h4>
+                        <p className="lead mb-0">No hay problema define tu dirección de retiro y destino con una(s) foto(s) y descripción de lo que quieres mover.</p>
                       </div>
                     </div>
                   </div>
                   <div className="row align-items-center justify-content-between mb-10">
                     <div className="col-12 col-lg-6 order-lg-1 mb-6 mb-lg-0">
-                      <img src={require(`../../assets/images/svg/05.svg`)} alt="Image" className="img-fluid" />
+                      <img src={require(`../../assets/images/steps/app.png`)} alt="Image" className="img-fluid" />
                     </div>
                     <div className="col-12 col-lg-6 col-xl-5">
                       <div>
@@ -61,14 +61,14 @@ class Index4 extends Component {
                             02
                           </span>
                         </h2>
-                        <h4 className="mt-3">Start Creating</h4>
-                        <p className="lead mb-0">We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                        <h4 className="mt-3">Negocia el precio</h4>
+                        <p className="lead mb-0">Obten la mejor oferta para mover lo que deseas desde la comodidad de tu smarphone.</p>
                       </div>
                     </div>
                   </div>
                   <div className="row align-items-center justify-content-between">
                     <div className="col-12 col-lg-6 mb-6 mb-lg-0">
-                      <img src={require(`../../assets/images/svg/06.svg`)} alt="Image" className="img-fluid" />
+                      <img src={require(`../../assets/images/steps/relax.png`)} alt="Image" className="img-fluid" />
                     </div>
                     <div className="col-12 col-lg-6 col-xl-5">
                       <div>
@@ -76,8 +76,8 @@ class Index4 extends Component {
                             03
                           </span>
                         </h2>
-                        <h4 className="mt-3">Get Result</h4>
-                        <p className="lead mb-0">We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                        <h4 className="mt-3">Relajate</h4>
+                        <p className="lead mb-0">Sigue todo el traslado y relajate, todos los traslados estan asegurados</p>
                       </div>
                     </div>
                   </div>
@@ -99,16 +99,70 @@ class Index4 extends Component {
                 <div className="container">
                   <div className="row justify-content-center text-center">
                     <div className="col-12 col-md-12 col-lg-8 mb-8 mb-lg-0">
-                      <div className="mb-8"> <span className="badge badge-primary-soft p-2 font-w-6">
-                          What We Offerd
-                        </span>
-                        <h2 className="mt-3 font-w-5">Creative Design And Creative Services</h2>
-                        <p className="lead mb-0">All types of businesses need access to development resources, so we give you the option to decide how much you need to use.</p>
+                      <div className="mb-8">
+                        <h2 className="mt-3 font-w-5">Características</h2>
                       </div>
                     </div>
                   </div>
                   {/* / .row */}
-                  <FeatureServices />
+                    <div className="row align-items-center ">
+                      <div className="col-xl-4 col-lg-4 mb-8 mb-lg-0">
+                        <div className={`px-4 py-7 rounded hover-translate text-center bg-white shadow`}>
+                          <div>
+                            <img className="img-fluid" src={require(`../../assets/images/features/tracking.png`)} alt="" />
+                          </div>
+                          <h5 className="mt-4 mb-3">Monitorea tu carga</h5>
+                          <p>Puedes ver el progreso mientras el servicio está en proceso..</p>
+                        </div>
+                      </div>
+                      <div className="col-xl-4 col-lg-4 col-sm-6">
+                        <div className={`px-4 py-7 rounded hover-translate text-center bg-white shadow`}>
+                          <div>
+                            <img className="img-fluid" src={require(`../../assets/images/features/save.png`)} alt="" />
+                          </div>
+                          <h5 className="mt-4 mb-3">Negocia el precio</h5>
+                          <p>Negocia el precio  para obtener el mejor trato.</p>
+                        </div>
+                      </div>
+                      <div className="col-xl-4 col-lg-4 col-sm-6 mt-6 mt-sm-0">
+                        <div className={`px-4 py-7 rounded hover-translate text-center bg-white shadow`}>
+                          <div>
+                            <img className="img-fluid" src={require(`../../assets/images/features/userExperience.png`)} alt="" />
+                          </div>
+                          <h5 className="mt-4 mb-3">Mejor Experiencia de usuario</h5>
+                          <p>Nuestra amigable interfaz de usuario hará que la experiencia sea fácil.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="row align-items-center pt-5">
+                      <div className="col-xl-4 col-lg-4 mb-8 mb-lg-0">
+                        <div className={`px-4 py-7 rounded hover-translate text-center bg-white shadow`}>
+                          <div>
+                            <img className="img-fluid" src={require(`../../assets/images/features/security.png`)} alt="" />
+                          </div>
+                          <h5 className="mt-4 mb-3">Verificación de antecedentes</h5>
+                          <p>Verificamos los antecedentes de nuestros conductores para garantizar tu seguridad.</p>
+                        </div>
+                      </div>
+                      <div className="col-xl-4 col-lg-4 col-sm-6">
+                        <div className={`px-4 py-7 rounded hover-translate text-center bg-white shadow`}>
+                          <div>
+                            <img className="img-fluid" src={require(`../../assets/images/features/schedule.png`)} alt="" />
+                          </div>
+                          <h5 className="mt-4 mb-3">Puedes Agendar tu Camion</h5>
+                          <p>Puedes pedir el servicio en el mismo momento o puedes programar de acuerdo a tu conveniencia.</p>
+                        </div>
+                      </div>
+                      <div className="col-xl-4 col-lg-4 col-sm-6 mt-6 mt-sm-0">
+                        <div className={`px-4 py-7 rounded hover-translate text-center bg-white shadow`}>
+                          <div>
+                            <img className="img-fluid" src={require(`../../assets/images/features/payment.png`)} alt="" />
+                          </div>
+                          <h5 className="mt-4 mb-3">Paga y Califica a través de la Aplicación</h5>
+                          <p>Puedes pagar y calificar nuestros servicios a través de la aplicación.</p>
+                        </div>
+                      </div>
+                    </div>
                  </div>
               </section>
               {/*services end*/}
@@ -120,16 +174,13 @@ class Index4 extends Component {
                     <div className="col-12 col-lg-10 col-xl-8">
                       {/* Heading */}
                       <h1 className="display-4 text-white font-weight-bold">
-                        Change the way
+                        Conviértete en un conductor de Procarga.
                       </h1>
                       {/* Text */}
-                      <p className="lead text-light">Build a Beautiful, Clean &amp; Modern Design website with flexible Bootstrap components.</p>
+                      <p className="lead text-light">Sé tu propio jefe y transforma klómetros en dinero ayudando a las personas a mover sus cosas.</p>
                       {/* Buttons */} <Link to="/" className="btn btn-primary mr-1">
-                      Learn More
+                      Inscríbete ahora
                     </Link>
-                      <Link to="/" className="btn btn-light">
-                        Get Started
-                      </Link>
                     </div>
                   </div>
                   {/* / .row */}
@@ -147,10 +198,10 @@ class Index4 extends Component {
                     <div className="col-12 col-lg-7 col-xl-6 order-lg-1">
                       {/* Heading */}
                       <h1 className="display-4 mt-3">
-                        Download the app and start your journey now.
+                        Descarga la aplicación desde apple store o play store.
                       </h1>
                       {/* Text */}
-                      <p className="lead text-muted">Build a Beautiful, Clean &amp; Modern Design website with flexible Bootstrap components.</p>
+                      <p className="lead text-muted">Comienza a mover tus cosas de forma rapida y segura.</p>
                       {/* Buttons */}
                       <Link to="/" className="btn btn-primary text-white text-left mr-1"> <i className="la la-apple mr-2 ic-2x d-inline-block" />
                         <div className="d-inline-block"> <small className="d-block">Available On The</small>
@@ -172,4 +223,4 @@ class Index4 extends Component {
     }
 }
 
-export default Index4;
+export default Index;
