@@ -18,41 +18,33 @@ class Footer extends Component {
                         <Col className="col-12 col-sm-4 navbar-dark">
                         <h5 className="mb-4 text-white">Paginas</h5>
                         <ul className="navbar-nav list-unstyled mb-0">
-                            <li className="mb-3 nav-item"><Link className="nav-link" to="/about-us">About</Link> 
+                            <li className="mb-3 nav-item"><Link className="nav-link" to="/">Inicio</Link>
                             </li>
-                            <li className="mb-3 nav-item"><Link className="nav-link" to="/product-grid">Shop</Link> 
+                            <li className="mb-3 nav-item"><Link className="nav-link" to="/drivers">Conductores</Link>
                             </li>
-                            <li className="mb-3 nav-item"><Link className="nav-link" to="/faq">Faq</Link> 
+                            <li className="mb-3 nav-item"><Link className="nav-link" to="/partners">Socios</Link>
                             </li>
-                            <li className="mb-3 nav-item"><Link className="nav-link" to="/blog-card">Blogs</Link> 
+                            <li className="nav-item"><Link className="nav-link" to="/contact-us">Contacto</Link>
                             </li>
-                            <li className="nav-item"><Link className="nav-link" to="/contact-us">Contact Us</Link> 
-                            </li>
-                        </ul>
-                        </Col>
-                        <Col className="col-12 col-sm-4 mt-6 mt-sm-0 navbar-dark">
-                        <h5 className="mb-4 text-white">Servicios</h5>
-                        <ul className="navbar-nav list-unstyled mb-0">
-                            <li className="mb-3 nav-item"><Link className="nav-link" to="#">Content Writing</Link> 
-                            </li>
-                            <li className="mb-3 nav-item"><Link className="nav-link" to="#">Documentation</Link> 
-                            </li>
-                            <li className="mb-3 nav-item"><Link className="nav-link" to="/sign-in">Account</Link> 
-                            </li>
-                            <li className="nav-item"><Link className="nav-link" to="/career">Careers</Link> 
+                            <li className="mb-3 nav-item"><Link className="nav-link" to="/faq">Faq</Link>
                             </li>
                         </ul>
                         </Col>
                         <Col className="col-12 col-sm-4 mt-6 mt-sm-0 navbar-dark">
                         <h5 className="mb-4 text-white">Legal</h5>
                         <ul className="navbar-nav list-unstyled mb-0">
-                            <li className="mb-3 nav-item"><Link className="nav-link" to="/term-condition">Term Of Service</Link> 
+                            <li className="mb-3 nav-item"><Link className="nav-link" to="/term-condition">Términos del Servicio</Link>
                             </li>
-                            <li className="mb-3 nav-item"><Link className="nav-link" to="/privacy-policy">Privacy Policy</Link> 
-                            </li>
-                            <li className="nav-item"><Link className="nav-link" to="#">Support</Link> 
+                            <li className="mb-3 nav-item"><Link className="nav-link" to="/privacy-policy">Políticas de privacidad</Link>
                             </li>
                         </ul>
+                        </Col>
+                        <Col className="col-12 col-sm-4 mt-6 mt-sm-0 navbar-dark">
+                            <h5 className="mb-4 text-white">Servicios</h5>
+                            <ul className="navbar-nav list-unstyled mb-0">
+                                <li className="mb-3 nav-item"><Link className="nav-link" to="#">Inscribirse como conductor</Link>
+                                </li>
+                            </ul>
                         </Col>
                     </Row>
                     <Row className="mt-5" >
@@ -64,8 +56,6 @@ class Footer extends Component {
                         <Col className="col-12 col-sm-6 mt-6 mt-sm-0">
                         <ul className="list-inline mb-0">
                             <li className="list-inline-item"><Link className="text-light ic-2x" to="#"><i className="la la-facebook" /></Link> 
-                            </li>
-                            <li className="list-inline-item"><Link className="text-light ic-2x" to="#"><i className="la la-dribbble" /></Link> 
                             </li>
                             <li className="list-inline-item"><Link className="text-light ic-2x" to="#"><i className="la la-instagram" /></Link> 
                             </li>

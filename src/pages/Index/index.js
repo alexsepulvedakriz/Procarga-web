@@ -24,7 +24,7 @@ class Index extends Component {
             {/*body content start*/}
             <div className="page-content">
               {/*how it work start*/}
-              <section className="custom-py-2 position-relative">
+              <section className="position-relative">
                 <div className="container">
                   <div className="row justify-content-center text-center">
                     <div className="col-12 col-md-12 col-lg-8 mb-8 mb-lg-0">
@@ -53,7 +53,7 @@ class Index extends Component {
                   </div>
                   <div className="row align-items-center justify-content-between mb-10">
                     <div className="col-12 col-lg-6 order-lg-1 mb-6 mb-lg-0">
-                      <img src={require(`../../assets/images/steps/app.png`)} alt="Image" className="img-fluid" />
+                      <img src={require(`../../assets/images/steps/deal.png`)} alt="Image" className="img-fluid" />
                     </div>
                     <div className="col-12 col-lg-6 col-xl-5">
                       <div>
@@ -81,16 +81,6 @@ class Index extends Component {
                       </div>
                     </div>
                   </div>
-                </div>
-                <div className="shape-1" style={{height: '200px', overflow: 'hidden'}}>
-                  <svg viewBox="0 0 500 150" preserveAspectRatio="none" style={{height: '100%', width: '100%'}}>
-                    <path d="M0.00,49.98 C150.00,150.00 271.49,-50.00 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style={{stroke: 'none', fill: '#fff'}} />
-                  </svg>
-                </div>
-                <div className="shape-1 bottom" style={{height: '200px', overflow: 'hidden'}}>
-                  <svg viewBox="0 0 500 150" preserveAspectRatio="none" style={{height: '100%', width: '100%'}}>
-                    <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style={{stroke: 'none', fill: '#fff'}} />
-                  </svg>
                 </div>
               </section>
               {/*how it work end*/}

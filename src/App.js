@@ -40,7 +40,7 @@ class App extends React.Component {
   }
   setHeader(pathname) {
     let pathArray = pathname.split('/');
-    return `/${pathArray[1]}` === '/' ? true :`/${pathArray[1]}` === '/drivers' ? true : `/${pathArray[1]}` === '/partners' ? true : `/${pathArray[1]}` === '/index4' ? true : `/${pathArray[1]}` === '/index5' ? true : `/${pathArray[1]}` === '/index9' ? true  : false;
+    return `/${pathArray[1]}` === '/' ? true :`/${pathArray[1]}` === '/drivers' ? true : `/${pathArray[1]}` === '/partners' ? true : `/${pathArray[1]}` === '/contact-us' ? true : `/${pathArray[1]}` === '/faq' ? true : `/${pathArray[1]}` === '/index9' ? true  : false;
  
   }
   render() {

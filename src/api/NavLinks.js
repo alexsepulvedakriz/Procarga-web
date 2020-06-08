@@ -3,20 +3,20 @@
  */
 export default [
    {
-      "menu_title": "Home",
+      "menu_title": "Inicio",
       "type": "Menu",
       "path": "/",
       "icon": "home",
    },
    {
-      "menu_title": "Driver",
+      "menu_title": "Conductores",
       "path": "/drivers",
       "mega": true,
       "icon": "party_mode",
       "type": "Menu"
    },
    {
-      "menu_title": "Partners",
+      "menu_title": "Socios",
       "type": "Menu",
       "path": "/partners",
       "icon": "home"
