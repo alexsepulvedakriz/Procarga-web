@@ -22,8 +22,6 @@ class Footer extends Component {
                             </li>
                             <li className="mb-3 nav-item"><Link className="nav-link" to="/drivers">Conductores</Link>
                             </li>
-                            <li className="mb-3 nav-item"><Link className="nav-link" to="/partners">Socios</Link>
-                            </li>
                             <li className="nav-item"><Link className="nav-link" to="/contact-us">Contacto</Link>
                             </li>
                             <li className="mb-3 nav-item"><Link className="nav-link" to="/faq">Faq</Link>

@@ -7,20 +7,21 @@ class Herosection3 extends Component {
             <section className="custom-pt-1 custom-pb-2 bg-primary parallaxie position-relative" style={{ backgroundImage: `url(${require(`../../assets/images/bg/01.jpg`)}` , backgroundPosition: 'center center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} data-overlay={6}>
             <div className="container">
               <div className="row justify-content-center text-center">
-                <div className="col-12 col-lg-10 col-xl-8">
+                <div className="col-12 col-lg-12 col-xl-12">
                   {/* Heading */}
-                  <h1 className="display-4 text-white font-weight-bold">
-                      Mueve lo que quieras de una forma fácil desde tu smartphone
+                  <h1 className="display-6 text-white font-weight-bold">
+                      Ahora el precio de los servicios de fletes, mudanzas, cargas, gruas para remolques y rescate de vehiculos, los eliges tu desde tu smartphone
                       </h1>
-                  {/* Text */}
-                  <p className="lead text-light">Procarga ha llegado para facilitar el traslado de tus cosas en pocos pasos desde tu smartphone, no dudes en bajar la aplicación y solicitar
-                      un driver amigo que te ayudará.</p>
                   {/* Buttons */}
                     <Link to="/" className="btn btn-primary text-white text-left mr-1"> <i className="la la-apple mr-2 ic-2x d-inline-block" />
                         <div className="d-inline-block"> <small className="d-block">Disponible en</small>
                             App Store</div>
                     </Link>
-                    <Link to="/" className="btn btn-dark text-white text-left"> <i className="la la-android mr-2 ic-2x d-inline-block" />
+                    <Link to="/" className="btn btn-danger text-white text-left mr-1"> <i className="la la-mobile-phone mr-2 ic-2x d-inline-block" />
+                        <div className="d-inline-block"> <small className="d-block">Disponible en</small>
+                            App Gallery</div>
+                    </Link>
+                    <Link to="/" className="btn btn-success text-white text-left"> <i className="la la-android mr-2 ic-2x d-inline-block" />
                         <div className="d-inline-block"> <small className="d-block">Disponible en</small>
                             Google Play</div>
                     </Link>

@@ -16,12 +16,6 @@ export default [
       "type": "Menu"
    },
    {
-      "menu_title": "Socios",
-      "type": "Menu",
-      "path": "/partners",
-      "icon": "home"
-   },
-   {
       "menu_title": "Contacto",
       "type": "Menu",
       "path": "/contact-us",

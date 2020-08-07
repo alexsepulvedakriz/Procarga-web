@@ -23,7 +23,7 @@ class Feature extends Component {
                 <div className="col-xl-3 col-lg-4 col-sm-6">
                     <div className="px-4 py-7 rounded hover-translate">
                     <div>
-                        <svg width={80} height={80} viewBox="0 0 24 24" fill="none" stroke="#1360ef" strokeWidth={1} strokeLinecap="round" strokeLinejoin="round" className="feather feather-check-square">
+                        <svg width={80} height={80} viewBox="0 0 24 24" fill="none" stroke="#007da3" strokeWidth={1} strokeLinecap="round" strokeLinejoin="round" className="feather feather-check-square">
                         <polyline points="9 11 12 14 22 4" />
                         <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" />
                         </svg>
@@ -35,7 +35,7 @@ class Feature extends Component {
                 <div className="col-xl-3 col-lg-4 col-sm-6 mt-6 mt-sm-0">
                     <div className="px-4 py-7 rounded hover-translate">
                     <div>
-                        <svg width={80} height={80} viewBox="0 0 24 24" fill="none" stroke="#1360ef" strokeWidth={1} strokeLinecap="round" strokeLinejoin="round" className="feather feather-wifi">
+                        <svg width={80} height={80} viewBox="0 0 24 24" fill="none" stroke="#007da3" strokeWidth={1} strokeLinecap="round" strokeLinejoin="round" className="feather feather-wifi">
                         <path d="M5 12.55a11 11 0 0 1 14.08 0" />
                         <path d="M1.42 9a16 16 0 0 1 21.16 0" />
                         <path d="M8.53 16.11a6 6 0 0 1 6.95 0" />

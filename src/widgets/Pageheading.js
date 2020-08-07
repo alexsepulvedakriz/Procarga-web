@@ -16,7 +16,7 @@ class Pageheading extends Component {
                         }
                     },
                     "color": {
-                        "value": "#1360ef"
+                        "value": "#007da3"
                     },
                     "shape": {
                         "type": "circle",

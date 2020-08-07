@@ -26,7 +26,7 @@ class TestimonialDemo extends Component {
               <section className="position-relative">
             <div className="shape-2 transform-md-rotate" style={{overflow: 'hidden'}}>
               <svg viewBox="0 0 500 150" preserveAspectRatio="none" style={{height: '100%', width: '100%'}}>
-                <path d="M208.09,0.00 C152.70,67.10 262.02,75.98 200.80,150.00 L0.00,150.00 L0.00,0.00 Z" style={{stroke: 'none', fill: '#1360ef'}} />
+                <path d="M208.09,0.00 C152.70,67.10 262.02,75.98 200.80,150.00 L0.00,150.00 L0.00,0.00 Z" style={{stroke: 'none', fill: '#007da3'}} />
               </svg>
             </div>
             <div className="container-fluid">

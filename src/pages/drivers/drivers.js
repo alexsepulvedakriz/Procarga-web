@@ -23,18 +23,19 @@ class Drivers extends Component {
                 <section className="bg-primary" style={{ backgroundImage: `url(${require(`../../assets/images/bg/04.jpg`)}` , backgroundPosition: 'center center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} data-overlay={6}>
                     <div className="container">
                         <div className="row justify-content-center text-center">
-                            <div className="col-12 col-lg-10 col-xl-8">
+                            <div className="col-12 col-lg-12 col-xl-12">
                                 {/* Heading */}
                                 <h1 className="display-4 text-white font-weight-bold">
-                                    Gana dinero transportando.
+                                    Comienza a generar ganancias extras transportando.
                                 </h1>
-                                {/* Text */}
-                                <p className="lead text-light">Se parte de la familia de conductores de Procarga y tranforma kilómetros en dinero mientras ayudas a las
-                                    personas a mover sus cosas.</p>
                                 {/* Buttons */}
                                 <Link to="/" className="btn btn-primary text-white text-left mr-1"> <i className="la la-apple mr-2 ic-2x d-inline-block" />
                                     <div className="d-inline-block"> <small className="d-block">Disponible en</small>
                                         App Store</div>
+                                </Link>
+                                <Link to="/" className="btn btn-danger text-white text-left mr-1"> <i className="la la-mobile-phone mr-2 ic-2x d-inline-block" />
+                                    <div className="d-inline-block"> <small className="d-block">Disponible en</small>
+                                        App Gallery</div>
                                 </Link>
                                 <Link to="/" className="btn btn-dark text-white text-left"> <i className="la la-android mr-2 ic-2x d-inline-block" />
                                     <div className="d-inline-block"> <small className="d-block">Disponible en</small>
@@ -71,10 +72,12 @@ class Drivers extends Component {
                             <div className="row justify-content-center text-center">
                                 <div className="col-12 col-md-12 col-lg-8 mb-8">
                                     <div> <span className="badge badge-primary-soft p-2">
-                    <i className="la la-cubes ic-3x rotation" />
+                    <i className="la la-car ic-3x rotation" />
                   </span>
                                         <h2 className="mt-3">¿Por qué ser un Driver de Procarga?</h2>
-                                        <p className="lead mb-0">Procarga es una app que ayuda a conectar usuarios que necesitan mover cosas que no caben en un auto convencional con conductores que cuentan con camionetas, cargo van, camiones y gruas.</p>
+                                        <p className="lead mb-0">Si tienes tiempo libre y cuentas con un vehiculo como suv,
+                                            furgon, camioneta, camion, grua de remolque y rescate de vehiculso, que sea propio o presta
+                                            ,listo ya tienes lo onportante. Se parte de la familia Procarga</p>
                                     </div>
                                 </div>
                             </div>
@@ -88,7 +91,7 @@ class Drivers extends Component {
                                         <div>
                                             <h5>Regularidad</h5>
                                             <p className="mb-0">Recibe el pago de tu
-                                                trabajo de forma semanal.</p>
+                                                trabajo de forma semanal, cada miércoles.</p>
                                         </div>
                                     </div>
                                     <div className="d-flex align-items-start mb-8">
@@ -98,8 +101,7 @@ class Drivers extends Component {
                                         </div>
                                         <div>
                                             <h5>Gana dinero</h5>
-                                            <p className="mb-0">Usa tu tiempo libre para
-                                                ganar dinero extra.</p>
+                                            <p className="mb-0">Genera ingresos diaramente en tus tiempos libres .</p>
                                         </div>
                                     </div>
                                     <div className="d-flex align-items-start">
@@ -109,8 +111,7 @@ class Drivers extends Component {
                                         </div>
                                         <div>
                                             <h5>Flexibilidad</h5>
-                                            <p className="mb-0">Se tu propio jefe y
-                                                maneja tu horario .</p>
+                                            <p className="mb-0">Tú estableces tus horarios de trabajo.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -125,8 +126,7 @@ class Drivers extends Component {
                                         </div>
                                         <div>
                                             <h5>Servicio</h5>
-                                            <p className="mb-0">Ayuda a la gente a mover
-                                                sus cosas.</p>
+                                            <p className="mb-0">Colabora a la gente a mover sus cosas.</p>
                                         </div>
                                     </div>
                                     <div className="d-flex align-items-start mb-8">
@@ -136,8 +136,7 @@ class Drivers extends Component {
                                         </div>
                                         <div>
                                             <h5>Instantáneo</h5>
-                                            <p className="mb-0">Recibe notificaciones en tu smartphone de
-                                                las solicitudes más cercanas a tu posición.</p>
+                                            <p className="mb-0">Recibirás notificaciones a tu smartphone de solicitudes cercanas a tu posición donde puedes optar por los pedidos más rentables y convenientes.</p>
                                         </div>
                                     </div>
                                     <div className="d-flex align-items-start">
@@ -147,8 +146,7 @@ class Drivers extends Component {
                                         </div>
                                         <div>
                                             <h5>Beneficios</h5>
-                                            <p className="mb-0">Beneficios especiales por ser parte
-                                                de la familia Procarga.</p>
+                                            <p className="mb-0">Obtendrás beneficios por ser parte de la familia Procarga.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -157,14 +155,14 @@ class Drivers extends Component {
                     </section>
                     {/*Why be Partners Procarga start*/}
                     {/*what need Drivers Procarga start*/}
-                    <section className="custom-pt-1 custom-pb-2 bg-dark position-relative" data-bg-img={require(`../../assets/images/bg/02.png`)}>
+                    <section className="custom-pt-1 custom-pb-2 bg-dark-blue position-relative" data-bg-img={require(`../../assets/images/bg/02.png`)}>
                         <div className="container">
                             <div className="row align-items-end">
                                 <div className="col-lg-4 col-md-6 mb-8 mb-lg-0 text-white">
                                     <div> <span className="badge badge-primary-soft p-2">
                                 <i className="la la-cubes ic-3x rotation" />
                             </span>
-                                        <h2 className="mt-3 mb-0">¿Qué necesito para ser un conductor de ProCarga?</h2>
+                                        <h2 className="mt-3 mb-0">¿Requesitos para ser un conductor de ProCarga?</h2>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6">
@@ -195,9 +193,9 @@ class Drivers extends Component {
                                             <div className="mr-3">
                                                 <img className="img-fluid" src={require(`../../assets/images/icon/strong-img.png`)} alt="" />
                                             </div>
-                                            <h5 className="m-0 text-light">Fuerte y Físicamente Capaz</h5>
+                                            <h5 className="m-0 text-light">Fuerte y resistencia física</h5>
                                         </div>
-                                        <p className="mb-0">Debes ser fuerte y físicamente capaz de levantar al menos 30Kg.</p>
+                                        <p className="mb-0">Debes tener fuerza y resistencia para cargar y descargar pesos.</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6 mt-6">
@@ -206,9 +204,9 @@ class Drivers extends Component {
                                             <div className="mr-3">
                                                 <img className="img-fluid" src={require(`../../assets/images/icon/boxTool.png`)} alt="" />
                                             </div>
-                                            <h5 className="m-0 text-light">Herramientas</h5>
+                                            <h5 className="m-0 text-light">Habilidades</h5>
                                         </div>
-                                        <p className="mb-0">Debes contar con las herramientas necesarias para asegurar la carga de los clientes..</p>
+                                        <p className="mb-0">Debes contar con las habilidades que todo conductor debe tener para asegurar la carga de los clientes..</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6 mt-6">
@@ -260,7 +258,7 @@ class Drivers extends Component {
                           </span>
                                         </h2>
                                         <h4 className="mt-3">Descargar la app</h4>
-                                        <p className="lead mb-0">Descarga la APP desde Apple Store or Play Store.</p>
+                                        <p className="lead mb-0">Descarga la APP desde Apple Store, Play Store o App Gallery.</p>
                                     </div>
                                 </div>
                             </div>
@@ -274,8 +272,8 @@ class Drivers extends Component {
                             02
                           </span>
                                         </h2>
-                                        <h4 className="mt-3">Sube la información</h4>
-                                        <p className="lead mb-0">Sube toda la información soliitada en la App al momento de registrarte.</p>
+                                        <h4 className="mt-3">Ingresa tus datos y antecedentes</h4>
+                                        <p className="lead mb-0">Sube toda la información solicitada por la aplicación.</p>
                                     </div>
                                 </div>
                             </div>
@@ -290,7 +288,7 @@ class Drivers extends Component {
                           </span>
                                         </h2>
                                         <h4 className="mt-3">Revisión de antecedentes</h4>
-                                        <p className="lead mb-0">La información subida será revisada y aprobada en caso de cumplir con todo lo necesario.</p>
+                                        <p className="lead mb-0">Toda tu información será revisada y aprobada dentro de 72 horas.</p>
                                     </div>
                                 </div>
                             </div>
@@ -304,8 +302,8 @@ class Drivers extends Component {
                             04
                           </span>
                                         </h2>
-                                        <h4 className="mt-3">Entrenamiento</h4>
-                                        <p className="lead mb-0">Entrenamiento para capacitar al driver en el uso de la aplicación, con esto ya estas listo para ayudar a las personas a mover sus cosas.</p>
+                                        <h4 className="mt-3">Capacitación</h4>
+                                        <p className="lead mb-0">Puedes capacitarte en el uso de la aplicación por medio de tutoriales online.</p>
                                     </div>
                                 </div>
                             </div>

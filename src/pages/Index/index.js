@@ -47,7 +47,7 @@ class Index extends Component {
                           </span>
                         </h2>
                         <h4 className="mt-3">¿Tienes problemas moviendo tus cosas?</h4>
-                        <p className="lead mb-0">No hay problema define tu dirección de retiro y destino con una(s) foto(s) y descripción de lo que quieres mover.</p>
+                        <p className="lead mb-0">No te compliques, ingresa los datos de dirección de origen y destino, indicar si necesitas ayuda y fotos para el traslado de tu carga.</p>
                       </div>
                     </div>
                   </div>
@@ -62,7 +62,7 @@ class Index extends Component {
                           </span>
                         </h2>
                         <h4 className="mt-3">Negocia el precio</h4>
-                        <p className="lead mb-0">Obten la mejor oferta para mover lo que deseas desde la comodidad de tu smarphone.</p>
+                        <p className="lead mb-0">Obtén y elige la mejor oferta para el traslado de tu carga, en la comodidad del lugar donde estés, desde tu smarphone.</p>
                       </div>
                     </div>
                   </div>
@@ -77,7 +77,7 @@ class Index extends Component {
                           </span>
                         </h2>
                         <h4 className="mt-3">Relajate</h4>
-                        <p className="lead mb-0">Sigue todo el traslado y relajate, todos los traslados estan asegurados</p>
+                        <p className="lead mb-0">Todo el traslado de tu carga lo puedes monitorear a través de tu smarphone o incluso acompañando al conductor </p>
                       </div>
                     </div>
                   </div>
@@ -99,10 +99,19 @@ class Index extends Component {
                       <div className="col-xl-4 col-lg-4 mb-8 mb-lg-0">
                         <div className={`px-4 py-7 rounded hover-translate text-center bg-white shadow`}>
                           <div>
-                            <img className="img-fluid" src={require(`../../assets/images/features/tracking.png`)} alt="" />
+                            <img className="img-fluid" src={require(`../../assets/images/features/security.png`)} alt="" />
                           </div>
-                          <h5 className="mt-4 mb-3">Monitorea tu carga</h5>
-                          <p>Puedes ver el progreso mientras el servicio está en proceso..</p>
+                          <h5 className="mt-4 mb-3">Revisión de antecedentes</h5>
+                          <p>Revisaremos los antecedentes de nuestros conductores para garantizar tu seguridad.</p>
+                        </div>
+                      </div>
+                      <div className="col-xl-4 col-lg-4 col-sm-6">
+                        <div className={`px-4 py-7 rounded hover-translate text-center bg-white shadow`}>
+                          <div>
+                            <img className="img-fluid" src={require(`../../assets/images/features/schedule.png`)} alt="" />
+                          </div>
+                          <h5 className="mt-4 mb-3">Al instante o agenda</h5>
+                          <p>Puedes solicitar tu servicio de transporte en tiempo real o programarlo, de acuerdo a tu conveniencia.</p>
                         </div>
                       </div>
                       <div className="col-xl-4 col-lg-4 col-sm-6">
@@ -111,16 +120,7 @@ class Index extends Component {
                             <img className="img-fluid" src={require(`../../assets/images/features/save.png`)} alt="" />
                           </div>
                           <h5 className="mt-4 mb-3">Negocia el precio</h5>
-                          <p>Negocia el precio  para obtener el mejor trato.</p>
-                        </div>
-                      </div>
-                      <div className="col-xl-4 col-lg-4 col-sm-6 mt-6 mt-sm-0">
-                        <div className={`px-4 py-7 rounded hover-translate text-center bg-white shadow`}>
-                          <div>
-                            <img className="img-fluid" src={require(`../../assets/images/features/userExperience.png`)} alt="" />
-                          </div>
-                          <h5 className="mt-4 mb-3">Mejor Experiencia de usuario</h5>
-                          <p>Nuestra amigable interfaz de usuario hará que la experiencia sea fácil.</p>
+                          <p>Tú decides cuanto pagaras por el servicio de transporte de tu carga.</p>
                         </div>
                       </div>
                     </div>
@@ -128,19 +128,19 @@ class Index extends Component {
                       <div className="col-xl-4 col-lg-4 mb-8 mb-lg-0">
                         <div className={`px-4 py-7 rounded hover-translate text-center bg-white shadow`}>
                           <div>
-                            <img className="img-fluid" src={require(`../../assets/images/features/security.png`)} alt="" />
+                            <img className="img-fluid" src={require(`../../assets/images/features/tracking.png`)} alt="" />
                           </div>
-                          <h5 className="mt-4 mb-3">Verificación de antecedentes</h5>
-                          <p>Verificamos los antecedentes de nuestros conductores para garantizar tu seguridad.</p>
+                          <h5 className="mt-4 mb-3">Monitorea tu carga en todo momento</h5>
+                          <p>Puedes ver en tiempo real todo el recorrido del traslado de tu carga.</p>
                         </div>
                       </div>
-                      <div className="col-xl-4 col-lg-4 col-sm-6">
+                      <div className="col-xl-4 col-lg-4 col-sm-6 mt-6 mt-sm-0">
                         <div className={`px-4 py-7 rounded hover-translate text-center bg-white shadow`}>
                           <div>
-                            <img className="img-fluid" src={require(`../../assets/images/features/schedule.png`)} alt="" />
+                            <img className="img-fluid" src={require(`../../assets/images/features/userExperience.png`)} alt="" />
                           </div>
-                          <h5 className="mt-4 mb-3">Puedes Agendar tu Camion</h5>
-                          <p>Puedes pedir el servicio en el mismo momento o puedes programar de acuerdo a tu conveniencia.</p>
+                          <h5 className="mt-4 mb-3">Una mejor experiencia de usuario</h5>
+                          <p>Contaras con una interfaz amigable que mejora la experiencia de usuario.</p>
                         </div>
                       </div>
                       <div className="col-xl-4 col-lg-4 col-sm-6 mt-6 mt-sm-0">
@@ -148,64 +148,14 @@ class Index extends Component {
                           <div>
                             <img className="img-fluid" src={require(`../../assets/images/features/payment.png`)} alt="" />
                           </div>
-                          <h5 className="mt-4 mb-3">Paga y Califica a través de la Aplicación</h5>
-                          <p>Puedes pagar y calificar nuestros servicios a través de la aplicación.</p>
+                          <h5 className="mt-4 mb-3">Paga y califica a través de la aplicación</h5>
+                          <p>Puedes pagar con diferentes medios de pago en la aplicación o en efectivo, y calificar nuestros servicios.</p>
                         </div>
                       </div>
                     </div>
                  </div>
               </section>
               {/*services end*/}
-              {/*join start*/}
-              {/*join end*/}
-              <section className="bg-primary" style={{ backgroundImage: `url(${require(`../../assets/images/bg/01.jpg`)}` , backgroundPosition: 'center center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} data-overlay={6}>
-                <div className="container">
-                  <div className="row justify-content-center text-center">
-                    <div className="col-12 col-lg-10 col-xl-8">
-                      {/* Heading */}
-                      <h1 className="display-4 text-white font-weight-bold">
-                        Conviértete en un conductor de Procarga.
-                      </h1>
-                      {/* Text */}
-                      <p className="lead text-light">Sé tu propio jefe y transforma klómetros en dinero ayudando a las personas a mover sus cosas.</p>
-                      {/* Buttons */} <Link to="/" className="btn btn-primary mr-1">
-                      Inscríbete ahora
-                    </Link>
-                    </div>
-                  </div>
-                  {/* / .row */}
-                </div>
-                {/* / .container */}
-              </section>
-              {/*app start*/}
-              <section>
-                <div className="container">
-                  <div className="row align-items-center">
-                    <div className="col-12 col-lg-5 col-xl-6 order-lg-2 mb-8 mb-lg-0">
-                      {/* Image */}
-                      <img src={require(`../../assets/images/hero/05.png`)} className="img-fluid" alt="..." />
-                    </div>
-                    <div className="col-12 col-lg-7 col-xl-6 order-lg-1">
-                      {/* Heading */}
-                      <h1 className="display-4 mt-3">
-                        Descarga la aplicación desde apple store o play store.
-                      </h1>
-                      {/* Text */}
-                      <p className="lead text-muted">Comienza a mover tus cosas de forma rapida y segura.</p>
-                      {/* Buttons */}
-                      <Link to="/" className="btn btn-primary text-white text-left mr-1"> <i className="la la-apple mr-2 ic-2x d-inline-block" />
-                        <div className="d-inline-block"> <small className="d-block">Available On The</small>
-                          App Store</div>
-                      </Link>
-                      <Link to="/" className="btn btn-dark text-white text-left"> <i className="la la-android mr-2 ic-2x d-inline-block" />
-                        <div className="d-inline-block"> <small className="d-block">Android App On</small>
-                          Google Play</div>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </section>
-              {/*app end*/}
             </div>
             {/*body content end*/}
           </div>
